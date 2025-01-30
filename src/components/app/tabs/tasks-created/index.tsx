@@ -21,7 +21,7 @@ const TasksCreatedTab: FC = memo((): JSX.Element => {
 	return (
 		<ScrollView style={{ flex: 1 }}>
 			<View style={styles.container}>
-				{!tasks.length && (
+				{!taskIncomplete.length && (
 					<View style={styles.emptyContainer}>
 						<Ionicons
 							size={40}

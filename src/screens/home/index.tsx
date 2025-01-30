@@ -31,7 +31,7 @@ export function Home() {
 	return (
 		<SafeAreaProvider style={{ flex: 1 }}>
 			<SafeAreaView style={{ flex: 1 }} edges={['top']}>
-				<StatusBar style='auto' backgroundColor={colors.gray[100]} />
+				<StatusBar style='dark' backgroundColor={colors.gray[100]} />
 
 				<View style={styles.container}>
 					<Header />
