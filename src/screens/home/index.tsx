@@ -1,3 +1,5 @@
+import 'react-native-reanimated'
+
 import { View } from 'react-native'
 import { useFonts } from 'expo-font'
 import React, { useEffect } from 'react'
